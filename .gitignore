@@ -1,0 +1,6 @@
+# Cached ICS downloads
+*.ics
+
+# The user's real configuration holds PRIVATE secret calendar URLs — never commit it.
+# The shipped calendar_configuration.sample.lua is committed; the edited copy is not.
+calendar_configuration.lua

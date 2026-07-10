@@ -1,0 +1,60 @@
+-- calendar_l10n/es.lua — Spanish. Keys must match the English source exactly.
+return {
+    ["Calendar"] = "Calendario",
+    ["Open viewer"] = "Abrir visor",
+    ["Refresh now"] = "Actualizar ahora",
+    ["Calendars"] = "Calendarios",
+    ["Open calendar"] = "Abrir calendario",
+    ["Refresh calendar"] = "Actualizar calendario",
+    ["Sleep-screen mode: %1"] = "Modo de pantalla de reposo: %1",
+    ["Week starts on: %1"] = "La semana empieza el: %1",
+    ["Refresh interval"] = "Intervalo de actualización",
+    ["Refresh interval (hours)"] = "Intervalo de actualización (horas)",
+    ["On sleep, refetch calendars whose cache is older than this."]
+        = "Al entrar en reposo, volver a descargar los calendarios cuya caché sea más antigua que este valor.",
+    ["Turn on Wi-Fi on sleep if outdated"] = "Activar Wi-Fi en reposo si está desactualizado",
+    ["When entering sleep with Wi-Fi off and a calendar cache older than the threshold below, briefly turn Wi-Fi on to refresh, then turn it off again. Can delay entering sleep and uses some battery."]
+        = "Al entrar en reposo con el Wi-Fi apagado y una caché más antigua que el umbral inferior, se enciende brevemente el Wi-Fi para actualizar y luego se apaga. Puede retrasar el reposo y gastar algo de batería.",
+    ["Wi-Fi refresh threshold: %1 h"] = "Umbral de actualización Wi-Fi: %1 h",
+    ["Wi-Fi refresh threshold (hours)"] = "Umbral de actualización Wi-Fi (horas)",
+    ["On sleep with Wi-Fi off, turn it on and refresh only when the calendar cache is older than this. Wi-Fi is turned off again afterwards."]
+        = "Al entrar en reposo con el Wi-Fi apagado, encenderlo y actualizar solo si la caché es más antigua que este valor. Después se apaga de nuevo.",
+    ["Monday"] = "Lunes",
+    ["Sunday"] = "Domingo",
+
+    ["Refreshing calendars…"] = "Actualizando calendarios…",
+    ["Calendar refreshed."] = "Calendario actualizado.",
+    ["Could not refresh calendar."] = "No se pudo actualizar el calendario.",
+
+    ["Reload configuration"] = "Recargar configuración",
+    ["Create configuration file from sample"] = "Crear archivo de configuración desde la plantilla",
+    ["Show configuration file path"] = "Mostrar ruta del archivo de configuración",
+    ["Configuration file already exists."] = "El archivo de configuración ya existe.",
+    ["Sample configuration not found."] = "Plantilla de configuración no encontrada.",
+    ["Could not write configuration file."] = "No se pudo escribir el archivo de configuración.",
+    ["Configuration reloaded. %1 calendar(s) enabled/listed."]
+        = "Configuración recargada. %1 calendario(s) listado(s).",
+    ["No configuration - tap for help"] = "Sin configuración: toca para ayuda",
+    ["Configuration error - tap for details"] = "Error de configuración: toca para detalles",
+    ["Configuration error:\n%1"] = "Error de configuración:\n%1",
+    ["(no calendars in configuration)"] = "(no hay calendarios en la configuración)",
+
+    ["Day"] = "Día",
+    ["Week"] = "Semana",
+    ["Month"] = "Mes",
+    ["Agenda"] = "Agenda",
+    ["Today"] = "Hoy",
+    ["Sync"] = "Sinc.",
+    ["Event"] = "Evento",
+    ["Events"] = "Eventos",
+    ["No events"] = "Sin eventos",
+    ["All day"] = "Todo el día",
+    ["Location: "] = "Lugar: ",
+    ["Calendar: "] = "Calendario: ",
+    ["Last synced %1"] = "Última sincronización: %1",
+    ["+%1 more"] = "+%1 más",
+    ["Agenda from %1"] = "Agenda desde el %1",
+
+    ["Show calendar on sleep screen"] = "Mostrar calendario en la pantalla de reposo",
+    ["Calendar view mode: "] = "Modo de vista del calendario: ",
+}

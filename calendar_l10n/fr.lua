@@ -1,0 +1,60 @@
+-- calendar_l10n/fr.lua — French. Keys must match the English source exactly.
+return {
+    ["Calendar"] = "Agenda",
+    ["Open viewer"] = "Ouvrir l'affichage",
+    ["Refresh now"] = "Actualiser maintenant",
+    ["Calendars"] = "Agendas",
+    ["Open calendar"] = "Ouvrir l'agenda",
+    ["Refresh calendar"] = "Actualiser l'agenda",
+    ["Sleep-screen mode: %1"] = "Mode écran de veille : %1",
+    ["Week starts on: %1"] = "La semaine commence le : %1",
+    ["Refresh interval"] = "Intervalle d'actualisation",
+    ["Refresh interval (hours)"] = "Intervalle d'actualisation (heures)",
+    ["On sleep, refetch calendars whose cache is older than this."]
+        = "À la mise en veille, retélécharger les agendas dont le cache est plus ancien que cette valeur.",
+    ["Turn on Wi-Fi on sleep if outdated"] = "Activer le Wi-Fi en veille si obsolète",
+    ["When entering sleep with Wi-Fi off and a calendar cache older than the threshold below, briefly turn Wi-Fi on to refresh, then turn it off again. Can delay entering sleep and uses some battery."]
+        = "Si le Wi-Fi est éteint à la mise en veille et que le cache de l'agenda est plus ancien que le seuil ci-dessous, le Wi-Fi est brièvement activé pour actualiser, puis désactivé. Peut retarder la mise en veille et consommer un peu de batterie.",
+    ["Wi-Fi refresh threshold: %1 h"] = "Seuil d'actualisation Wi-Fi : %1 h",
+    ["Wi-Fi refresh threshold (hours)"] = "Seuil d'actualisation Wi-Fi (heures)",
+    ["On sleep with Wi-Fi off, turn it on and refresh only when the calendar cache is older than this. Wi-Fi is turned off again afterwards."]
+        = "À la mise en veille avec le Wi-Fi éteint, ne l'activer et actualiser que si le cache de l'agenda est plus ancien que cette valeur. Le Wi-Fi est ensuite désactivé.",
+    ["Monday"] = "Lundi",
+    ["Sunday"] = "Dimanche",
+
+    ["Refreshing calendars…"] = "Actualisation des agendas…",
+    ["Calendar refreshed."] = "Agenda actualisé.",
+    ["Could not refresh calendar."] = "Impossible d'actualiser l'agenda.",
+
+    ["Reload configuration"] = "Recharger la configuration",
+    ["Create configuration file from sample"] = "Créer le fichier de configuration à partir du modèle",
+    ["Show configuration file path"] = "Afficher le chemin du fichier de configuration",
+    ["Configuration file already exists."] = "Le fichier de configuration existe déjà.",
+    ["Sample configuration not found."] = "Modèle de configuration introuvable.",
+    ["Could not write configuration file."] = "Impossible d'écrire le fichier de configuration.",
+    ["Configuration reloaded. %1 calendar(s) enabled/listed."]
+        = "Configuration rechargée. %1 agenda(s) listé(s).",
+    ["No configuration - tap for help"] = "Pas de configuration – touchez pour l'aide",
+    ["Configuration error - tap for details"] = "Erreur de configuration – touchez pour les détails",
+    ["Configuration error:\n%1"] = "Erreur de configuration :\n%1",
+    ["(no calendars in configuration)"] = "(aucun agenda dans la configuration)",
+
+    ["Day"] = "Jour",
+    ["Week"] = "Semaine",
+    ["Month"] = "Mois",
+    ["Agenda"] = "Agenda",
+    ["Today"] = "Aujourd'hui",
+    ["Sync"] = "Sync",
+    ["Event"] = "Événement",
+    ["Events"] = "Événements",
+    ["No events"] = "Aucun événement",
+    ["All day"] = "Toute la journée",
+    ["Location: "] = "Lieu : ",
+    ["Calendar: "] = "Agenda : ",
+    ["Last synced %1"] = "Dernière synchro : %1",
+    ["+%1 more"] = "+%1 autres",
+    ["Agenda from %1"] = "Agenda à partir du %1",
+
+    ["Show calendar on sleep screen"] = "Afficher l'agenda sur l'écran de veille",
+    ["Calendar view mode: "] = "Mode d'affichage de l'agenda : ",
+}

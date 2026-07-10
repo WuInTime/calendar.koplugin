@@ -1,0 +1,60 @@
+-- calendar_l10n/de.lua — German. Keys must match the English source exactly.
+return {
+    ["Calendar"] = "Kalender",
+    ["Open viewer"] = "Ansicht öffnen",
+    ["Refresh now"] = "Jetzt aktualisieren",
+    ["Calendars"] = "Kalender",
+    ["Open calendar"] = "Kalender öffnen",
+    ["Refresh calendar"] = "Kalender aktualisieren",
+    ["Sleep-screen mode: %1"] = "Schlafbildschirm-Modus: %1",
+    ["Week starts on: %1"] = "Wochenbeginn: %1",
+    ["Refresh interval"] = "Aktualisierungsintervall",
+    ["Refresh interval (hours)"] = "Aktualisierungsintervall (Stunden)",
+    ["On sleep, refetch calendars whose cache is older than this."]
+        = "Beim Einschlafen Kalender neu laden, deren Cache älter ist als dieser Wert.",
+    ["Turn on Wi-Fi on sleep if outdated"] = "WLAN im Schlafmodus einschalten, wenn veraltet",
+    ["When entering sleep with Wi-Fi off and a calendar cache older than the threshold below, briefly turn Wi-Fi on to refresh, then turn it off again. Can delay entering sleep and uses some battery."]
+        = "Wenn beim Wechsel in den Schlafmodus WLAN aus ist und der Kalender-Cache älter als die untenstehende Schwelle ist, wird WLAN kurz eingeschaltet, aktualisiert und wieder ausgeschaltet. Kann das Einschlafen verzögern und etwas Akku verbrauchen.",
+    ["Wi-Fi refresh threshold: %1 h"] = "WLAN-Aktualisierungsschwelle: %1 h",
+    ["Wi-Fi refresh threshold (hours)"] = "WLAN-Aktualisierungsschwelle (Stunden)",
+    ["On sleep with Wi-Fi off, turn it on and refresh only when the calendar cache is older than this. Wi-Fi is turned off again afterwards."]
+        = "Beim Einschlafen mit ausgeschaltetem WLAN nur dann WLAN einschalten und aktualisieren, wenn der Kalender-Cache älter ist als dieser Wert. Danach wird WLAN wieder ausgeschaltet.",
+    ["Monday"] = "Montag",
+    ["Sunday"] = "Sonntag",
+
+    ["Refreshing calendars…"] = "Kalender werden aktualisiert…",
+    ["Calendar refreshed."] = "Kalender aktualisiert.",
+    ["Could not refresh calendar."] = "Kalender konnte nicht aktualisiert werden.",
+
+    ["Reload configuration"] = "Konfiguration neu laden",
+    ["Create configuration file from sample"] = "Konfigurationsdatei aus Vorlage erstellen",
+    ["Show configuration file path"] = "Pfad der Konfigurationsdatei anzeigen",
+    ["Configuration file already exists."] = "Konfigurationsdatei existiert bereits.",
+    ["Sample configuration not found."] = "Vorlagen-Konfiguration nicht gefunden.",
+    ["Could not write configuration file."] = "Konfigurationsdatei konnte nicht geschrieben werden.",
+    ["Configuration reloaded. %1 calendar(s) enabled/listed."]
+        = "Konfiguration neu geladen. %1 Kalender gelistet.",
+    ["No configuration - tap for help"] = "Keine Konfiguration – für Hilfe tippen",
+    ["Configuration error - tap for details"] = "Konfigurationsfehler – für Details tippen",
+    ["Configuration error:\n%1"] = "Konfigurationsfehler:\n%1",
+    ["(no calendars in configuration)"] = "(keine Kalender in der Konfiguration)",
+
+    ["Day"] = "Tag",
+    ["Week"] = "Woche",
+    ["Month"] = "Monat",
+    ["Agenda"] = "Agenda",
+    ["Today"] = "Heute",
+    ["Sync"] = "Sync",
+    ["Event"] = "Termin",
+    ["Events"] = "Termine",
+    ["No events"] = "Keine Termine",
+    ["All day"] = "Ganztägig",
+    ["Location: "] = "Ort: ",
+    ["Calendar: "] = "Kalender: ",
+    ["Last synced %1"] = "Zuletzt synchronisiert: %1",
+    ["+%1 more"] = "+%1 weitere",
+    ["Agenda from %1"] = "Agenda ab %1",
+
+    ["Show calendar on sleep screen"] = "Kalender auf dem Schlafbildschirm anzeigen",
+    ["Calendar view mode: "] = "Kalender-Ansichtsmodus: ",
+}
