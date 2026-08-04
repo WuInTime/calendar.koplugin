@@ -17,7 +17,7 @@ local function parseRule(rrule)
         local y,mo,d,H,Mi,S = r.UNTIL:match("^(%d%d%d%d)(%d%d)(%d%d)T?(%d?%d?)(%d?%d?)(%d?%d?)Z?$")
         if y then
             r.UNTIL_TS = os.time{ year=tonumber(y), month=tonumber(mo), day=tonumber(d),
-                hour=tonumber(H) or 23, min=tonumber(Mi) or 59, sec=tonumber(S) or 59, isdst=false }
+                hour=tonumber(H) or 23, min=tonumber(Mi) or 59, sec=tonumber(S) or 59 }
         end
     end
     if r.BYDAY then

@@ -13,15 +13,19 @@ function ICS.parseDateTime(str)
     -- date-only: YYYYMMDD
     local y, m, d = str:match("^(%d%d%d%d)(%d%d)(%d%d)$")
     if y then
+        -- isdst left unset (not false): forcing "standard time" here shifts
+        -- the epoch by the DST offset in zones observing it (e.g. an August
+        -- date in Europe/Lisbon), pushing all-day dtend an hour past the
+        -- following midnight and leaking the event into the next day.
         local t = { year=tonumber(y), month=tonumber(m), day=tonumber(d),
-                    hour=0, min=0, sec=0, isdst=false }
+                    hour=0, min=0, sec=0 }
         return os.time(t), true
     end
     -- date-time: YYYYMMDDTHHMMSS with optional trailing Z (UTC)
     local Y, Mo, D, H, Mi, S, Z = str:match("^(%d%d%d%d)(%d%d)(%d%d)T(%d%d)(%d%d)(%d%d)(Z?)$")
     if Y then
         local t = { year=tonumber(Y), month=tonumber(Mo), day=tonumber(D),
-                    hour=tonumber(H), min=tonumber(Mi), sec=tonumber(S), isdst=false }
+                    hour=tonumber(H), min=tonumber(Mi), sec=tonumber(S) }
         local epoch = os.time(t)  -- interpreted as local wall time
         if Z == "Z" then
             -- Fields are UTC; convert to true epoch by adding local offset.
